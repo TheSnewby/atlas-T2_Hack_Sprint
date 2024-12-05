@@ -2,7 +2,7 @@
 import sys, pygame
 pygame.init()
 size = width, height = 1920, 1080
-speed = [1, 1]
+speed = [2, 2]
 black = 0, 0, 0
 screen = pygame.display.set_mode(size)
 ball = pygame.image.load("assets/intro_ball.gif")
