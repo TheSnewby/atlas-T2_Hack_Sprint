@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, pygame
+import pygame
 pygame.init()
 x = 1280
 y = 780
