@@ -282,6 +282,7 @@ def encounter_choice(encounter, health, ammo, fuel, supplies):
     surface.blit(resized_encounter_image, (0, 0))
 
     text_background_rect = pygame.Rect(50, 250, screen_width - 100, 300)
+
     pygame.draw.rect(surface, BLACK, text_background_rect)
 
     display_text(surface, encounter["text"], 100, 300)
